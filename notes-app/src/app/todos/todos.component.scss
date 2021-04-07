@@ -70,3 +70,21 @@
         opacity: 1;
     }
 }
+
+.todo-item .todo-contol-button {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    display: flex;
+}
+
+.todos-contol-box .todo-contol-button {
+    background: #F5F7F8;
+    display: flex;
+    padding: 7px 10px;
+    border-radius: 10px;
+
+    i.material-icons {
+        font-size: 20px;
+    }
+}
